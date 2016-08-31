@@ -8,14 +8,12 @@ var port = process.env.port || 3000;
 
 //-----------  configuration --------------------
 
-
 app.use(express.static(path.join(__dirname, 'public')));
 
 //----------------------application----------------------------------------------
 // defining a front end route
 
-
-app.get('*',function(request, response){
+app.get('/',function(request, response){
 	response.sendFile(path.resolve(__dirname + '/index.html'));	
 
 });
