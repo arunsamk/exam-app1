@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  /*"dependencies": {
+  "dependencies": {
+    "node": "4.4.5",
+    "npm": "3.10.5",
     "angular": "1.5.8",
     "angular-resource": "1.5.8",
     "angular-route": "1.5.8",
@@ -20,7 +22,7 @@
     "mongoose": "4.5.10",
     "morgan": "1.7.0",
     "path": "0.12.7"
-  },*/
+  },
   "author": "princy",
   "license": "UNLICENSED"
 }
