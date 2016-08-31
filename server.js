@@ -4,7 +4,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-var port = process.env.port || 7070;
+var port = process.env.port || 3000;
 
 //-----------  configuration --------------------
 
